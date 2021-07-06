@@ -22,9 +22,15 @@
                     <About v-if="id === 'about'"/>
                     <Blog v-if="id === 'blog'"/>
                     <Experience v-if="id === 'experience'"/>
+                    <Team v-if="id === 'team'"/>
+                    <Research v-if="id === 'research'"/>
+                    <Contact v-if="id === 'contact'"/>
+                    <Admission v-if="id === 'admission'"/>
+                    <Course v-if="id === 'course'"/>
                 </a-layout-content>
                 <!-- 页脚 -->
-                <a-layout-footer><Footer/></a-layout-footer>
+                <a-layout-footer></a-layout-footer>
+                <!-- <a-layout-footer><Footer/></a-layout-footer> -->
             </a-layout>
         </a-layout>
 
@@ -45,6 +51,11 @@
     import Experience from '@/components/Experience.vue';
     import Blog from '@/components/Blog.vue';
     import Footer from '@/components/Footer.vue';
+    import Team from '@/components/Team.vue';
+    import Research from '@/components/Research.vue';
+    import Contact from '@/components/Contact.vue';
+    import Admission from '@/components/Admission.vue';
+    import Course from '@/components/Course.vue';
 
     @Component({
         components: {
@@ -54,6 +65,11 @@
             Experience,
             Blog,
             Footer,
+            Team,
+            Research,
+            Contact,
+            Admission,
+            Course,
         },
         computed: {
             ...mapGetters(['moduleIds']),

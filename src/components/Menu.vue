@@ -5,9 +5,9 @@
         <!-- 头像 -->
         <div class="header">
             <span class="avatar ant-avatar ant-avatar-circle ant-avatar-image">
-                <img draggable="false" src="../assets/avatar.jpg">
+                <img draggable="false" src="../assets/about/teacher_liu.jpg">
             </span>
-            <span>{{banner.name|| '林中小舍'}}</span>
+            <span>{{banner.name|| '文鑫课题组'}}</span>
         </div>
         <!-- 菜单 -->
         <a-layout-content class="menu">
@@ -22,13 +22,13 @@
         <!-- 菜单页脚 -->
         <a-layout-footer class="footer">
             <!-- 社交 -->
-            <a-row type="flex" justify="center" align="middle" :gutter="2">
+            <!-- <a-row type="flex" justify="center" align="middle" :gutter="2">
                 <a-col span="24"><Social color="rgb(136,136,136)" :size="1.2"/></a-col>
-            </a-row>
+            </a-row> -->
             <!-- 版权 -->
-            <a-row type="flex" justify="center" align="middle" :gutter="2">
+            <!-- <a-row type="flex" justify="center" align="middle" :gutter="2">
                 <a-col span="24"><Copyrights color="rgb(136,136,136)" :size=".6"/></a-col>
-            </a-row>
+            </a-row> -->
         </a-layout-footer>
     </a-layout>
 </template>

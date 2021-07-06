@@ -1,12 +1,7 @@
 {
   // 页面title
-  title: "林舍 - 林中小舍",
-  // 社交链接
-  social: {
-    github: "https://github.com/manerfan",
-    twitter: "https://twitter.com/manerfan_china",
-    linkedin: "https://www.linkedin.com/in/%E6%B0%B8%E6%B0%B8-%E6%A8%8A-705071104/",
-  },
+  title: "刘文鑫课题组",
+
   // banner页
   banner: {
     anchor: {
@@ -14,13 +9,10 @@
       icon: "home",
       name: "首页",
     },
-    title: "林中小舍",
+    title: "文鑫课题组",
     desc: [
-      "北方汉子",
-      "宝爸一颗",
-      "码农一枚",
-      "花名林舍",
-      "工作五六载",
+      "我们在北京",
+      "期待您的加入",
     ],
   },
   // 正文
@@ -37,104 +29,160 @@
         name: "关于"
       },
       header: {
-        title: "information",
-        subtitle: "about me",
+        title: "关于",
+        subtitle: "导师",
       },
       content: {
-        name: "林舍",
+        name: "刘文鑫",
         desc: [
-          "林中通幽静",
-          "深山藏小舍",
+          "博士",
+          "中国科学院空天信息创新研究院研究员",
+          "中国科学院大学教授",
+          "IEEE高级会员",
+          "IET Fellow"
         ],
-        md: "鄙人林舍，生于河北，纯北方汉子，苦读十二载，后求学于西安~\
-        \n『**厚德、求真、砺学、笃行**』这是母校给予的八字真言，四年本科生涯、三年研究生涯，良师益友收获颇多~\
-        \n求学之际偶遇佳人，毕业之后终成正果，小窝一间、少爷一个，平平淡淡、快快乐乐~\
-        \n前有微波天线、后学电磁黑障，本非科班出身，出于热情投身猿类大军~\
-        \n工作五六载，两域三城奔波，累哉累哉，自知其中快乐~",
+        md: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;刘文鑫，博士、 中国科学院空天信息创新研究院研究员、中国科学院大学教授、IET Fellow、 IEEE 高级会员， 中国科学院空天信息研究院毫米波太赫兹真空电子学学术带头人。\
+          \n &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;长期从事毫米波太赫兹真空电子辐射源研究，面向空间卫星大容量高\
+              速率数据通信、成像雷达高分辨目标识别、快速安全检查和无损检测与超分辨生物\
+              医学成像等领域的国家重大需求，开展基础前沿研究及关键科学与技术问题攻关，\
+              探索新概念、新技术与新方法， 攻克了稳定性与可靠性等多项“卡脖子”技术， 成\
+              功研制了高功率大带宽毫米波太赫兹真空电子器件， 并用于“天宫”“北斗三号”\
+              “尖兵” 等国家重大工程， 实现了核心器件的自主可控与国产化替代， 获得了总体\
+              单位的高度评价。\
+        \n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;近年来，主持与太赫兹相关的研究课题 12 项，作为骨干人员参与国家自然基\
+          金重大项目 1 项； 获“军队科学技术进步二等奖”2 项（1 项排名第一）、 “中国科学\
+          院杰出科技成就奖”2 项（并列第 4）、 2019 年第五届材料显微分析国际会议“杰出\
+          贡献奖”等； 在 IEEE Electron Device Letters 和国际真空电子学会议(IVEC)等期刊和\
+          顶级会议上发表论文 SCI 收录 35 篇（封面文章 1 篇）， EI 收录 98 篇； 重要学术会\
+          议特邀报告 20 篇（国际 12 篇）；授权国家发明专利 5 项、 软件著作权登记 5 项；\
+          担任国际国内会议主席和 TPC 委员 11 次。 担任工信部工业和信息领域太赫兹技术\
+          专家、 GF 科工局电子基础组专家等， 获得中国电子学会“优秀科技工作者”等称号，\
+          入选中科院电子所“菁英人才”计划。",
       },
       // key - value 数量及内容完全自定义，链接自动识别
       keys: {
-        "主页": "http://cv.manerfan.com",
-        "博客": "http://blog.manerfan.com",
-        "专栏": "http://zhuanlan.manerfan.com",
-        "公众号": "林中小舍"
+        "主页": "http://people.ucas.edu.cn/~lwenxin",
+        "邮箱": "lwenxin@mail.ie.ac.cn",
       },
     },
-    // 履历
+    //团队成员
     {
       display: true,
       anchor: {
-        id: "experience",
-        icon: "idcard",
-        name: "经历"
+        id: "team",
+        icon: "team",
+        name: "团队成员",
       },
       header: {
-        title: "experience",
-        subtitle: "my experience",
+        title: "团队",
+        subtitle: "团队成员",
       },
       cards: [
         {
-          title: "阿里巴巴（中国）网络技术有限公司",
-          //subtitle: "2018-08 至 今",
-          md: "<!--**<u>高级开发工程师</u>**-->\
-          \n\
-          \nAli的包容性带来更广的舞台与更大的成长空间，身为Alier，很荣幸能在这样的一家公司共同奋斗、发展",
+          picture: "kty",
+          name: "欧粤",
+          degree: "硕士研究生",
+          md: "优秀毕业生",
         },
         {
-          title: "海航科技有限公司",
-          //subtitle: "2016-12 至 2018-08",
-          md: "<!--**<u>高级Java工程师</u>**-->\
-          \n\
-          \n海航是将我引向'互联网'的一艘船\
-          \n做为HNAer，很感谢HNA以及各位同仁能够提供这样一个舞台，来接触如此纷繁的、更为'互联网化'的技术，在HNA认识如此之多优秀的同仁尤为庆幸\
-          \n很遗憾HNA的一些变故影响到了很多事情，也带来了很多不愉快"
+          picture: "kty",
+          name: "赵征远",
+          degree: "硕士研究生",
+          md: "优秀毕业生",
         },
         {
-          title: "北京数码视讯有限公司",
-          //subtitle: "2013-04 至 2016-12",
-          md: "<!--**<u>技术经理</u>**-->\
-          \n\
-          \n由于专业和课题的原因并未进入'理想'中的体制内，凭借着对coding的一腔热情，一头扎进了猿类大军\
-          \n做为数码人，很感激数码在职场专业化成长上给予的空间",
+          picture: "kty",
+          name: "杨龙龙",
+          degree: "硕士研究生",
+          md: "优秀毕业生",
         },
         {
-          title: "西安电子科技大学",
-          subtitle: "2010-09 至 2013-04",
-          md: "**<u>研究生</u>**\
-          \n\
-          \n<!--**专业**：电路与系统-->\
-          \n\
-          \n惧怕过早接触社会选择了读研\
-          \n三年研究生涯对于(课题)研究的 **<u>意义</u>** 有了更深层次的理解\
-          \n由于自己的原因并没有继续读博，虽向往，但无悔",
+          picture: "kty",
+          name: "靳职昊",
+          degree: "硕士研究生",
+          md: "优秀毕业生",
         },
         {
-          title: "西安电子科技大学",
-          subtitle: "2016-09 至 2010-09",
-          md: "**<u>本科生</u>**\
-          \n\
-          \n<!--**专业**：电子信息工程-->\
-          \n\
-          \n第一次背井离乡，站了一个晚上的火车，远赴千里之外求学\
-          \n踏进校园的一刻很激动，第一天晚上心口刺痛的时候就开始想家了\
-          \n四年象牙塔生活很充实，也第一次感受到了四年同寝离别时的伤感之情",
+          picture: "kty",
+          name: "赵可东",
+          degree: "硕士研究生",
+          md: "优秀毕业生",
+        },
+        {
+          picture: "kty",
+          name: "张峰源",
+          degree: "硕士研究生",
+          md: "优秀毕业生",
+        },
+        {
+          picture: "kty",
+          name: "贺澎",
+          degree: "硕士研究生",
+          md: "优秀毕业生",
+        },
+        {
+          picture: "zjw",
+          name: "钟建伟",
+          degree: "硕士研究生",
+          md: "优秀毕业生",
         },
       ],
     },
-    // 博客页
+    // 研究方向
     {
       display: true,
       anchor: {
-        id: "blog",
-        icon: "profile",
-        name: "博客",
+        id: "research",
+        icon: "file-search",
+        name: "研究方向",
       },
       header: {
-        title: "blog",
-        subtitle: "latest blog",
+        title: "研究方向",
+        subtitle: "研究方向",
       },
-      blog: "https://segmentfault.com/blog/manerfan",
-      rss: "https://segmentfault.com/feeds/blog/manerfan",
+      direct1: "研究方向1的详细介绍",
+      direct2: "研究方向2的详细介绍",
+      direct3: "研究方向3的详细介绍",
+      content: "Hello You!",
+    },
+    {
+      display: true,
+      anchor: {
+        id: "course",
+        icon: "schedule",
+        name: "教学课程",
+      },
+      header: {
+        title: "课程",
+        subtitle: "教学课程",
+      },
+      content: "教学课程页面",
+    },
+    {
+      display: true,
+      anchor: {
+        id: "admission",
+        icon: "profile",
+        name: "招生招聘",
+      },
+      header: {
+        title: "招生招聘",
+        subtitle: "招生招聘",
+      },
+      content: "招生招聘页面",
+    },
+    {
+      display: true,
+      anchor: {
+        id: "contact",
+        icon: "wechat",
+        name: "联系我们",
+      },
+      header: {
+        title: "联系",
+        subtitle: "联系我们",
+      },
+      content: "联系我们页面",
     },
   ],
 }
